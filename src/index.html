@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>планувальник задач</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />-->
+  </head>
+  <body>
+    <h2 class="weather__title">Вітаємо!!!</h2>
+    <p class="weather__text">Прогноз погоди для вашого міста</p>
+    <form action="submit" class="js-search">
+      <input type="text" name="query" />
+      <select name="days">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="10">10</option>
+      </select>
+      <button>Шукати</button>
+    </form>
+    <ul class="js-list"></ul>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
