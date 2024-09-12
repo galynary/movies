@@ -2,7 +2,7 @@
   "name": "фільми",
   "version": "2.0.0",
   "description": "",
-  "homepage": " https://galynary.github.io/movies/",
+  "homepage": "https://galynary.github.io/movies/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /movies/"
