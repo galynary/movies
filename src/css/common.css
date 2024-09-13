@@ -14,9 +14,8 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 300px;
   list-style: none;
-  height: 240px;
 }
 
 ul {
