@@ -1,0 +1,2 @@
+ul{list-style:none}h2,p{margin:0}.js-list{flex-wrap:wrap;justify-content:space-around;align-items:center;gap:10px;margin-top:100px;display:flex}.js-list>li{border-radius:8px;flex:300px;transition:transform .3s;box-shadow:0 4px 8px rgba(0,0,0,.1)}.js-list>li:hover{transform:scale(1.05)}@media (max-width:1024px){.js-list{justify-content:center}.js-list>li{flex:45%}}@media (max-width:768px){.js-list{flex-direction:column;padding:10px}.js-list>li{flex:100%;margin-bottom:20px}}
+/*# sourceMappingURL=index.3b15ad6d.css.map */
